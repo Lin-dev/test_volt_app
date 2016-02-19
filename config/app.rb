@@ -23,7 +23,7 @@ Volt.configure do |config|
   #
   # config.app_secret = ENV['APP_SECRET']
   #
-  config.app_secret = 'ENJZFGyAsZZSfKM_yRfYK7GtiBLyOpNI0e1Yo7E29-jfPi0cYM5hrpuKQlr1cFYv1Oo'
+   config.app_secret = 'ENJZFGyAsZZSfKM_yRfYK7GtiBLyOpNI0e1Yo7E29-jfPi0cYM5hrpuKQlr1cFYv1Oo'
 
   ###############
   # Log Filtering
@@ -112,9 +112,9 @@ Volt.configure do |config|
   #
   # Encrypt message bus - messages on the message bus are encrypted by default
   # using rbnacl.
-  
+
   # config.message_bus.disable_encryption = true
-  
+
   #
   # ## MessageBus Server -- the message bus binds to a port and ip which the
   # other volt instances need to be able to connect to.  You can customize
