@@ -1,4 +1,3 @@
-# Place your app's docs here.
+# Volt todo app
 
-## New to Volt?
-Be sure to read the volt docs at http://voltframework.com/docs
+## MAKE SURE YOU HAVE MONGODB INSTALLED TO RUN LOCALLY
