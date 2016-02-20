@@ -1,1 +1,31 @@
 // Place your apps css here
+
+textarea {
+  height: 140px;
+  width: 100%;
+}
+
+.todo-table {
+  width: auto;
+
+  tr {
+    &.selected td {
+        background-color:#428bca;
+        color: #fff;
+
+        button {
+          color: #000;
+        }
+      }
+
+      td {
+        padding: 5px;
+        border-top: 1px solid #eee;
+
+        &.complete {
+          text-decoration: line-through;
+          color: #ccc;
+        }
+      }
+    }
+  }
